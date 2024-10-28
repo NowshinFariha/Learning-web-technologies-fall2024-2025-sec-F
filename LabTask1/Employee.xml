@@ -1,1 +1,54 @@
+<employee>
+    <employee>
+        <id>1</id>
+        <name>
+           <first_name>john</first_name>
+           <last_name>doe</last_name>
+        </name>
+        <add>
+            <f> </f>
+            <h>38</h>
+            <r>3</r>
+            <l>banani</l>
+            <d>dhaka</d>
+        </add>
+        <department>sales</department>
+        <salary>$2000</salary>
+    </employee>
 
+    <employee>
+        <id>2</id>
+        <name>
+           <first_name>mark</first_name>
+           <last_name>zuckerberg</last_name>
+        </name>
+        <add>
+            <f>a/1</f>
+            <h>20</h>
+            <r>18</r>
+            <l>mirpur</l>
+            <d>dhaka</d>
+        </add>
+        <department>accounts</department>
+        <salary>$12000</salary>
+    </employee>
+
+
+    <employee>
+        <id>1</id>
+        <name>
+           <first_name>ala</first_name>
+           <last_name>voski</last_name>
+        </name>
+        <add>
+            <f> </f>
+            <h>38</h>
+            <r>3</r>
+            <l>motijheel</l>
+            <d></d>
+        </add>
+        <department>human resource</department>
+        <salary>$30000</salary>
+    </employee>
+
+</employee>
