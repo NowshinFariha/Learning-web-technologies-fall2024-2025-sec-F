@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Person Profile</title>
+    <style>
+        table {
+            border-collapse: collapse;
+            border: 1px solid #ddd;
+        }
+
+        th, td {
+            border: 1px solid #ddd;
+            padding: 5px;
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <h1 class="profile-title">PERSON PROFILE</h1>
+    </div>
+
+    <form method="get" action="" enctype="">
+
+        <table border="1">
+
+            <tr>
+                <td>Name:</td>
+                <td><input type="text" id="name" name="name" required></td>
+            </tr>
+            <tr>
+                <td>Email:</td>
+                <td><input type="email" id="email" name="email" required></td>
+            </tr>
+            <tr>
+                <td>Gender:</td>
+                <td>
+                    <label for="gender_male"><input type="radio" id="gender_male" name="gender" value="male"> Male</label>
+                    <label for="gender_female"><input type="radio" id="gender_female" name="gender" value="female"> Female</label>
+                    <label for="gender_other"><input type="radio" id="gender_other" name="gender" value="other"> Other</label>
+                </td>
+            </tr>
+            <tr>
+                <td>Date of Birth:</td>
+                <td><input type="date" id="dob" name="dob" required></td>
+            </tr>
+            <tr>
+                <td>Blood Group</td>
+                <td>
+                    <select name="blood-group">
+                        <option value="">A+</option>
+                        <option value="">A-</option>
+                        <option value="">B+</option>
+                        <option value="">B-</option>
+                        <option value="">AB+</option>
+                        <option value="">AB-</option>
+                        <option value="">O+</option>
+                        <option value="">O-</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td>Degree</td>
+                <td>
+                    <input type="checkbox" name="ssc" value="SSC"> SSC
+                    <input type="checkbox" name="ssc" value="SSC"> HSC
+                    <input type="checkbox" name="ssc" value="SSC"> BSc
+                    <input type="checkbox" name="ssc" value="SSC"> MSc
+                </td>
+            </tr>
+            <tr>
+                <td>Photo:</td>
+                <td><input type="file" id="photo" name="photo" accept="image/*"></td>
+            </tr>
+            <tr>
+                <th></th>
+                <td><input type="submit" value="Submit"> <input type="reset" value="Reset"></td>
+            </tr>
+        </table>
+    </form>
+</body>
+</html>
